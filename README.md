@@ -37,7 +37,7 @@ Accuracy     | 44.79%
 
 The collated image below visually reports the prediction results on the target dataset.
 
-<p align="center"> <img src="https://github.com/reshalfahsi/domain-adaptation/blob/master/assets/qualitative.png" alt="qualitative" > <br /> Some results on the SVHN dataset. </p>
+<p align="center"> <img src="https://github.com/reshalfahsi/domain-adaptation/blob/master/assets/qualitative.png" alt="qualitative" > <br /> Some results on the SVHN dataset as the target dataset. </p>
 
 
 ## Credit
