@@ -1,4 +1,29 @@
-# Domain Adaptation With Domain-Adversarial Training of Neural Networks
+# Domain Adaptation with Domain-Adversarial Training (DANN)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Xw-OCEgNgGFBPvGgxAXyaB2bSO9kxJT7?usp=sharing)
+
+Note: GitHub’s notebook viewer may not render the included notebook correctly due to a widgets metadata issue (missing `metadata.widgets.state`). If the notebook preview fails to load on GitHub, please open it in Google Colab using the button above or run it locally in Jupyter.
+
+- Notebook: `Domain_Adaptation_With_Domain_Adversarial_Training_of_Neural_Networks.ipynb`
+- Dataset/cache paths: created under `experiment/`
+
+Quick start (local):
+
+1. Create a Python environment (Python 3.10+ recommended) and install dependencies:
+
+```pwsh
+pip install lightning torch torchvision torchmetrics scipy matplotlib pillow
+```
+
+2. Launch Jupyter and open the notebook:
+
+```pwsh
+jupyter notebook
+```
+
+If you prefer a zero-setup experience, use the Colab button above.
+
+## Overview
 
 This project adapts a classifier trained on a labeled source domain (MNIST) to a related but unlabeled target domain (SVHN) using Domain-Adversarial Training of Neural Networks (DANN). We use a pretrained RegNetY_400MF backbone, a gradient reversal layer (GRL), and a domain classifier to encourage domain-invariant features. Source images receive light on-the-fly augmentation; target images are transformed to the backbone’s expected normalization. SVHN test split is used as validation and test to monitor adaptation.
 
