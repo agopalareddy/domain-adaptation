@@ -1,2 +1,6 @@
-dataset/
-
+experiment/dataset/
+experiment/model/
+*.ckpt
+*.mat
+*.gz
+.ipynb_checkpoints/
